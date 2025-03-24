@@ -1,6 +1,6 @@
-# AirPod Connector
+# AirPods Connector
 
-Another Alfred AirPod Connector with zero configuration. Supports more than one pair of AirPods
+Another Alfred AirPods Connector with zero configuration. Supports more than one pair of AirPods
 
 **Usage**: `airpd`
 
@@ -10,9 +10,9 @@ Another Alfred AirPod Connector with zero configuration. Supports more than one 
 
 ## Supported headphones
 
-- AirPod1/2/3
-- AirPod Pro 1/2
-- AirPod Max
+- AirPods 1/2/3/4
+- AirPods Pro 1/2
+- AirPods Max
 - Powerbeats Pro
 
 ## Required

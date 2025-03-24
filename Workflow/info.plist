@@ -138,9 +138,9 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Connects/Disconnects Apple AirPods</string>
+				<string>{const:alfred_workflow_description}</string>
 				<key>title</key>
-				<string>Airpods Connector</string>
+				<string>{const:alfred_workflow_name}</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
