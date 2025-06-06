@@ -93,13 +93,13 @@ def main():
             adr: str = status.get('address')
             ap_type: str = status.get('prod_label')
             is_connected: bool = True if status.get('connected') == 'Yes' else False
-            con_str: str = "connected, Press \u23CE to disconnect..." if is_connected else "NOT connected, \u23CE to connect..."
+            con_str: str = "\u23CE to disconnect." if is_connected else "\u23CE to connect."
             ico: str = f"icons_for_earphones/{ap_type}.png" if is_connected else f"icons_for_earphones/{ap_type} Case.png"
             con_switch: str = "1" if is_connected else "0"
             if query == "" or query.lower() in ap_name.lower():
                 item = {
                     "title": f"{ap_name} {'✅️' if is_connected else '🚫'}",
-                    "subtitle": f"{ap_name} are {con_str}",
+                    "subtitle": f"{con_str}",
                     "arg": f"{adr};{con_switch}",
                     "icon": {
                         "path": ico,
