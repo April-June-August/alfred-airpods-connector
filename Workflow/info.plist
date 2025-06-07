@@ -76,7 +76,7 @@
 	<key>createdby</key>
 	<string>Acidham, May June July</string>
 	<key>description</key>
-	<string>Connect / Disconnect your Apple Headphones / Earphones</string>
+	<string>Connect/disconnect your Apple headsets/earphones</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -262,7 +262,19 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>## Usage
+
+Connect or disconnect your Apple headsets/earphones via the `airpods` keyword.
+
+![Showcase](README Images/showcase.png)
+
+* ↩ Connect or disconnect the selected device.
+
+In the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/), set your Favorite Device to prioritize it in the results list. Any device whose name contains the configured value will appear at the top.
+
+## Hotkeys
+
+Configure the [Hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/) for faster triggering.</string>
 	<key>uidata</key>
 	<dict>
 		<key>1DA679C0-54A9-49EC-A9E0-B01115A97781</key>
