@@ -366,7 +366,7 @@ Configure the [Hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2025.3</string>
+	<string>2025.4</string>
 	<key>webaddress</key>
 	<string>https://github.com/April-June-August/alfred-airpods-connector</string>
 </dict>
