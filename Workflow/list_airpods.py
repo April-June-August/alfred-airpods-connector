@@ -123,7 +123,7 @@ def main():
     output = {"rerun": 2, "items": items}
     
     # Write the JSON to stdout
-    sys.stdout.write(json.dumps(output))
+    sys.stdout.write(json.dumps(output, ensure_ascii=False))
 
 
 if __name__ == "__main__":
