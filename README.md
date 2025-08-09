@@ -1,11 +1,17 @@
-# AirPods Connector
+# <img src='Workflow/icon.png' width='45' align='center' alt='icon'> AirPods Connector
 
-Another Alfred AirPods connector with zero configuration. Supports more than one pair of AirPods
-
+Connect/disconnect your Apple headsets/earphones
 **Usage**: `airpods`
 
 <img src="Workflow/README Images/showcase.png" alt="Screenshot 2022-10-14 at 08.44.33" style="zoom:67%;" />
 
+## Installation
+
+1. [➡️ Download the latest release](../../releases/latest)
+
+2. Double click the `.alfredworkflow` file to install
+
+Note that the [Alfred Powerpack](https://www.alfredapp.com/powerpack/) is required to use workflows.
 
 ## Supported Devices
 
