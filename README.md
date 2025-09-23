@@ -11,7 +11,7 @@ Connect/disconnect your Apple headsets/earphones
 ## Supported Devices
 
 - AirPods 1/2/3/4
-- AirPods Pro 1/2
+- AirPods Pro 1/2/3
 - AirPods Max
 - Powerbeats Pro
 

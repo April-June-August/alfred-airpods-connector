@@ -15,6 +15,7 @@ AIRPD_PRODUCT_INDX = {
     8206: "AirPods Pro",
     8212: "AirPods Pro 2",
     8228: "AirPods Pro 2 with MagSafe Charging Case (USB-C)",
+    8231: "AirPods Pro 3",
     8203: "Powerbeats Pro",
 }
 
