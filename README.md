@@ -12,7 +12,7 @@ Connect/disconnect your Apple headsets/earphones
 
 - AirPods 1/2/3/4
 - AirPods Pro 1/2/3
-- AirPods Max
+- AirPods Max 1/USB-C
 - Powerbeats Pro
 
 ## Required
