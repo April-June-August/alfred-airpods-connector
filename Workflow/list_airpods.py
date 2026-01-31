@@ -10,6 +10,7 @@ AIRPD_PRODUCT_INDX = {
     8194: "AirPods OG",
 #   8195: "Powerbeats 3",
     8202: "AirPods Max",
+    8223: "AirPods Max (USB-C)",
     8203: "Powerbeats Pro",
     8206: "AirPods Pro",
     8207: "AirPods 2",
