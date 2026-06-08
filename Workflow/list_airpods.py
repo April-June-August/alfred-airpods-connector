@@ -29,21 +29,20 @@ def get_paired_airpods() -> dict:
     Returns:
         dict: dict with paired AirPods name including dict with info
     """
-    jsn: dict = json.loads(os.popen('system_profiler SPBluetoothDataType -json').read())
-    bt_data: dict = jsn['SPBluetoothDataType'][0] if jsn else None
+    jsn: dict = json.loads(os.popen("system_profiler SPBluetoothDataType -json").read())
+    bt_data: dict = jsn["SPBluetoothDataType"][0] if jsn else None
+    connected_devices: list = bt_data.get("device_connected", [])
+    not_connected_devices: list = bt_data.get("device_not_connected", [])
+    legacy_devices_list: list | None = bt_data.get("devices_list")
+
+    devices: list[dict] = []
     # With 12.3 and newer, json response has changed
     # macos < 12.3
-    try:
-        devices: dict = bt_data['devices_list']
-        connected_devices = False
+    if legacy_devices_list is not None:
+        devices = legacy_devices_list
+        connected_devices = []  # make newer field falsy
     # macos >= 12.3
-    except KeyError as e:
-        connected_devices: list = (
-            bt_data["device_connected"] if "device_connected" in bt_data else []
-        )
-        not_connected_devices: list = (
-            bt_data["device_not_connected"] if "device_not_connected" in bt_data else []
-        )
+    else:
         devices = connected_devices + not_connected_devices
     out_dict = {}
     for i in devices:
