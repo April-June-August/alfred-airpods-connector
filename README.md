@@ -12,7 +12,7 @@ Connect/disconnect your Apple headsets/earphones
 
 - AirPods 1/2/3/4
 - AirPods Pro 1/2/3
-- AirPods Max 1/USB-C
+- AirPods Max 1/USB-C/2
 - Powerbeats Pro
 
 ## Required
@@ -28,4 +28,3 @@ To show connection status on Desktop use Uebersicht:
 
 ## Acknowledgments
 This workflow is originally created by [Acidham](https://github.com/Acidham). My thanks for their work and kindness for letting me take over.
-

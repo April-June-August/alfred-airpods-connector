@@ -17,6 +17,7 @@ AIRPD_PRODUCT_INDX = {
     8212: "AirPods Pro 2",
     8219: "AirPods 4",
     8223: "AirPods Max (USB-C)",
+    8237: "AirPods Max 2",
     8228: "AirPods Pro 2 with MagSafe Charging Case (USB-C)",
     8231: "AirPods Pro 3",
 }
