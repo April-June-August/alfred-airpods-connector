@@ -1,3 +1,5 @@
+
+
 # <img src='Workflow/icon.png' width='45' align='center' alt='icon'> AirPods Connector
 
 Connect/disconnect your Apple headsets/earphones
@@ -18,6 +20,7 @@ Connect/disconnect your Apple headsets/earphones
 ## Required
 
 * Python 3
+* blueutil
 
 ## Tip
 
@@ -28,4 +31,3 @@ To show connection status on Desktop use Uebersicht:
 
 ## Acknowledgments
 This workflow is originally created by [Acidham](https://github.com/Acidham). My thanks for their work and kindness for letting me take over.
-
